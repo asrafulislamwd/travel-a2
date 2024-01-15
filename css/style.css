@@ -75,6 +75,89 @@ nav
     
 }
 
+/* header banner */
+
+.header-banner
+{
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.banner-content
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 110px 0;
+    border-radius: 10px;
+}
+
+.banner-content h1
+{
+    font-size: 65px;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-content p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 25px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-find-bar
+{
+    width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.banner-selector, .btn-serch
+{
+    border: 0;
+    border-radius: 10px;
+    width: 174px;
+    margin-right: 30px;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.btn-serch
+{
+    margin-right: 0;
+    background-color: #FF5400;
+    cursor: pointer;
+    color: #fff;
+    color: w;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsiv mobail  */
 
 @media screen and (max-width: 576px) {
@@ -97,5 +180,35 @@ nav
     .nav-toggol
     {
         display: block;
+    }
+
+    /* banner */
+    .banner-content
+    {
+        padding: 35px 0;
+    }
+
+    .banner-content h1
+    {
+        font-size: 30px;
+    }
+
+    .banner-content p
+    {
+        font-size: 14px;
+        padding: 10px 20px;
+        line-height: 22px;
+    }
+
+    .banner-find-bar
+    {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .banner-selector, .btn-serch
+    {
+        width: 100%;
+        margin: 0px 0px 20px 0px;
     }
 }
