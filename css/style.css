@@ -185,6 +185,11 @@ nav
 
 /* Destination */
 
+.destination-container
+{
+    margin-bottom: 100px;
+}
+
 .destination-title h2
 {
     font-size: 40px;
@@ -231,18 +236,65 @@ nav
     justify-content: center;
     align-items: center;
     height: 100%;
-  }
+}
 
-  .destination-h4 h4
-  {
+.destination-h4 h4
+{
     font-size: 28px;
     font-weight: 800;
     color: #fff;
-  }
+}
 
   /* Why Choose Us */
 
+.choose-content
+{
+    margin: 50px 65px;
+}
 
+.choose-card-box
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.choose-card
+{
+    padding: 35px;
+    border-radius: 10px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05)
+}
+
+.choose-bg-ch
+{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05)
+}
+
+.choose-card-with
+{
+    width: 42.75%;
+    margin: 30px auto;
+}
+
+.choose-card h4
+{
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 30px;
+    color: #131318;
+}
+
+.choose-card p
+{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 26px;
+    color: #5A5A5D;
+}
 
 
 
@@ -374,4 +426,20 @@ nav
     }
 
     /* Why Choose Us */
+
+    .choose-content
+    {
+        margin: 30px 0;
+    }
+
+    .choose-card-box
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .choose-card-with
+    {
+        width: 80%;
+    }
 }
