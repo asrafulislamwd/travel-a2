@@ -396,6 +396,7 @@ nav
 footer
 {
     background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
 }
 
 .footer-container
@@ -403,6 +404,11 @@ footer
     width: 50%;
     margin: 0 auto;
     padding: 110px 0;
+}
+.footer-content
+{
+    border-bottom: 1px solid #5A5A5D;
+    margin-bottom: 40px;
 }
 
 .footer-logo
@@ -421,6 +427,32 @@ footer
     line-height: 26px;
     text-align: center;
     padding: 25px;
+    color: #5A5A5D;
+}
+
+.footer-content ul
+{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 15px 0px 35px 0px;
+}
+
+.footer-content ul li
+{
+    list-style-type: none;
+}
+
+.footer-content ul li a
+{
+    font-size: 25px;
+    color: #424247;
+}
+
+.footer-container p
+{
+    text-align: center;
+    font-size: 16px;
     color: #5A5A5D;
 }
 
@@ -529,7 +561,7 @@ footer
         font-size: 25px;
     }
 
-    .destination-title p
+    .destination-title p, .footer-container p
     {
         font-size: 14px;
         padding: 15px;
@@ -615,4 +647,21 @@ footer
     }
 
     /* footer */
+
+    .footer-container
+    {
+        width: 90%;
+        padding: 30px 0px;
+    }
+
+    .footer-logo
+    {
+        gap: 10px;
+    }
+
+    .footer-logo h2
+    {
+        font-size: 30px;
+    }
+
 }
