@@ -204,11 +204,43 @@ nav
 
 .destination-content
 {
-    display: grid;
     margin: 50px 0;
 }
 
+.destination-colam
+{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 
+.maldives, .indonesia, .srilanka,
+.northamerica, .kashmir, .bangladesh,
+.bandarban
+{
+    position: relative;
+}
+
+.destination-h4 
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .destination-h4 h4
+  {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+  }
+
+  /* Why Choose Us */
 
 
 
@@ -312,4 +344,34 @@ nav
     }
 
     /* Destination */
+
+    .destination-title h2
+    {
+        font-size: 25px;
+    }
+
+    .destination-title p
+    {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .destination-content 
+    {
+        margin: 20px 0;
+    }
+
+    .destination-colam
+    {
+        flex-direction: column;
+    }
+
+    .maldives img, .indonesia img, .srilanka img,
+    .northamerica img, .kashmir img, .bangladesh img,
+    .bandarban img
+    {
+        width: 100%;
+    }
+
+    /* Why Choose Us */
 }
