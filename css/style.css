@@ -670,6 +670,50 @@ footer
         width: 80%;
     }
 
+    /* Deals & discounts */
+
+    .discounts-content
+    {
+        padding: 15px;
+        margin: 20px 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .satorini-card
+    {
+        margin-top: 140px;
+        padding: 30px 20px 0px 20px;
+    }
+
+    .satorini-card ul
+    {
+        gap: 10px;
+    }
+
+    .satorini-card ul li 
+    {
+        font-size: 14px;
+    }
+
+    .satorini-card h4
+    {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .satorini-card p
+    {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .satorini-card h5
+    {
+        font-size: 16px;
+        padding: 15px 0px 0px 0px;
+    }
+
     /* Newsletter */
 
     .newsletter-container
