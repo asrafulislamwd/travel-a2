@@ -190,7 +190,7 @@ nav
     margin-bottom: 100px;
 }
 
-.destination-title h2
+.destination-title h2, .discounts-title h2
 {
     font-size: 40px;
     font-weight: 800;
@@ -198,7 +198,7 @@ nav
     color: #131318;
 }
 
-.destination-title p
+.destination-title p, .discounts-title p
 {
     font-size: 16px;
     font-weight: 400;
@@ -296,12 +296,78 @@ nav
     color: #5A5A5D;
 }
 
+/* Deals & discounts */
+
+.discounts-content
+{
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    margin: 55px 0px;
+}
+
+.satorini-card
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.satorini-card ul
+{
+    display: flex;
+    gap: 30px;
+}
+
+.satorini-card ul li
+{
+    list-style-type: none;
+    font-size: 16px;
+    color: #5A5A5D;
+}
+
+.satorini-card .discounts-icon
+{
+    margin-right: 5px;
+    color: #FF5400;
+}
+
+.satorini-card h4
+{
+    font-size: 24px;
+    font-weight: 800;
+    padding: 15px 0px;
+    color: #131318;
+}
+
+.satorini-card p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #5A5A5D;
+}
+
+.satorini-card h5
+{
+    font-size: 18px;
+    font-weight: 800;
+    padding: 15px 0px 25px 0px;
+    color: #FF5400;
+}
+
 /* Newsletter */
 
 .newsletter-container
 {
     display: flex;
-    gap: 30px;
+    gap: 120px;
 }
 
 .newsletter-form-box
@@ -371,8 +437,9 @@ nav
     border-radius: 15px;
     padding: 25px;
     background-color: #FF5400;
-    bottom: 0;
-    right: 0;
+    bottom: 55px;
+    right: 7px;
+    transform: rotate(-24deg);
 }
 
 .travel-save h6
@@ -455,6 +522,7 @@ footer
     font-size: 16px;
     color: #5A5A5D;
 }
+
 
 
 
@@ -634,6 +702,7 @@ footer
     {
         width: 195px;
         padding: 20px;
+        bottom: 45px;
     }
 
     .travel-save h6
