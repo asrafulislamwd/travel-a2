@@ -700,12 +700,17 @@ footer
 
     .satorini-card ul
     {
-        gap: 10px;
+        gap: 5px;
     }
 
     .satorini-card ul li, .choose-card p, .discounts-title p, .newsletter-form-box p
     {
         font-size: 14px;
+    }
+
+    .satorini-card .discounts-icon
+    {
+        margin-right: 0;
     }
 
     .satorini-card h4
