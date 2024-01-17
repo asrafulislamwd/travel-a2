@@ -362,6 +362,13 @@ nav
     color: #FF5400;
 }
 
+.discounts-all-pakege-btn
+{
+    margin: 50px auto;
+    width: 17%;
+}
+
+
 /* Newsletter */
 
 .newsletter-container
@@ -624,7 +631,7 @@ footer
 
     /* Destination */
 
-    .destination-title h2
+    .destination-title h2, .discounts-title h2
     {
         font-size: 25px;
     }
@@ -659,6 +666,11 @@ footer
         margin: 30px 0;
     }
 
+    .choose-card h4
+    {
+        font-size: 24px;
+    }
+
     .choose-card-box
     {
         display: grid;
@@ -691,7 +703,7 @@ footer
         gap: 10px;
     }
 
-    .satorini-card ul li 
+    .satorini-card ul li, .choose-card p, .discounts-title p, .newsletter-form-box p
     {
         font-size: 14px;
     }
@@ -714,11 +726,18 @@ footer
         padding: 15px 0px 0px 0px;
     }
 
+    .discounts-all-pakege-btn
+    {
+        margin: 15px 0px;
+        width: 70%;
+    }
+
     /* Newsletter */
 
     .newsletter-container
     {
         flex-direction: column;
+        gap: 20px;
     }
 
     .newsletter-form-box
@@ -761,10 +780,20 @@ footer
 
     /* footer */
 
+    footer
+    {
+        margin-top: 20px;
+    }
+
     .footer-container
     {
         width: 90%;
         padding: 30px 0px;
+    }
+
+    .footer-content
+    {
+        margin-bottom: 15px;
     }
 
     .footer-logo
@@ -775,6 +804,11 @@ footer
     .footer-logo h2
     {
         font-size: 30px;
+    }
+
+    .footer-container p
+    {
+        padding: 0;
     }
 
 }
